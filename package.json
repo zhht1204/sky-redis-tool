@@ -4,7 +4,11 @@
   "description": "A client tool to manage Redis connections and sessions ",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "startRecat": "react-scripts start",
+    "build": "node scripts/build.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": "https://github.com/zhht1204/sky-redis-tool",
   "keywords": [
@@ -17,14 +21,48 @@
   "author": "zhht1204",
   "license": "MIT",
   "devDependencies": {
-    "sqlite3": "^4.1.1",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-named-asset-import": "^0.3.6",
+    "babel-preset-react-app": "^9.1.1",
+    "bfj": "^7.0.2",
+    "case-sensitive-paths-webpack-plugin": "^2.3.0",
+    "css-loader": "^3.4.2",
     "electron": "^8.0.1",
-    "react-scripts": "2.1.8"
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-loader": "^3.0.3",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "jest": "^25.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "pnp-webpack-plugin": "^1.6.4",
+    "postcss-flexbugs-fixes": "^4.2.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-safe-parser": "^4.0.2",
+    "react-dev-utils": "^10.2.0",
+    "sass-loader": "^8.0.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-manifest-plugin": "^2.2.0",
+    "workbox-webpack-plugin": "^5.0.0"
   },
   "dependencies": {
-    "sequelize": "^5.21.5",
     "antd": "^3.15.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
-  }
+    "react-dom": "^16.8.4",
+    "sequelize": "^5.21.5",
+    "sqlite3": "^4.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
