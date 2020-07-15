@@ -13,10 +13,11 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('build/index.html')
+  // mainWindow.loadFile('build/index.html')
+  mainWindow.loadURL('http://localhost:3000')
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
