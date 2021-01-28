@@ -43,7 +43,7 @@
     "bfj": "^7.0.2",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "css-loader": "^3.4.2",
-    "electron": "^8.2.4",
+    "electron": "^9.4.0",
     "eslint": "^7.4.0",
     "eslint-config-react-app": "^5.2.0",
     "eslint-loader": "^3.0.3",
